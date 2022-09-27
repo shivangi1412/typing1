@@ -25,7 +25,7 @@ jobs:
         pwd
     - name: Build the documentation
       run: make -C docs html
-    - name: test install
+    - name: test 
       run: |
         pip install nose
         
